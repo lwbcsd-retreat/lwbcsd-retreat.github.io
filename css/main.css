@@ -336,6 +336,12 @@ nav {
   padding: 100px 0 100px;
   text-align: center;
 }
+.logo {
+  text-align: left;
+  margin-bottom: 0.3em;
+  font-size: 10em;
+  letter-spacing: -0.04em;
+}
 .logo-name {
   margin-bottom: 0.3em;
   font-size: 10em;
