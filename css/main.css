@@ -426,7 +426,7 @@ nav {
   font-size: 2.4em;
 }
 .speakers-item p {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 /* =============================================================================
    SCHEDULE
@@ -665,7 +665,7 @@ nav {
     padding: 0;
   }
   .speakers-bio {
-    display: none;
+    /* display: none; */
   }
 }
 @media only screen and (max-width: 321px) {
