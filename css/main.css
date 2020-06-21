@@ -431,15 +431,20 @@ nav {
 /* =============================================================================
    SCHEDULE
    ========================================================================== */
+.qrcode {
+  float: left;
+  padding: 0 1em 1em 0;
+}
+
 .announcement {
   line-height: 1.5em;
-  padding: 24px;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 .schedule-tbl {
   padding: 20px;
 }
+
 .schedule-tbl table {
   border-collapse: collapse;
   font-size: 1em;
