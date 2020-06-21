@@ -286,6 +286,7 @@ hr {
 .content section {
   padding-top: 50px;
 }
+
 /* =============================================================================
    BASIC STYLES
    ========================================================================== */
@@ -336,6 +337,12 @@ nav {
   padding: 32px 0 32px;
   text-align: center;
 }
+.footer {
+  padding: 32px 0 32px;
+  text-align: center;
+  font-size: 1.2em
+}
+
 .logo-title {
   text-align: left;
   margin-top: 1em;
@@ -485,7 +492,7 @@ nav {
    Poster
    ========================================================================== */
 .poster-list {
-  align-content: center;
+  text-align: center;
 }
 
 /* =============================================================================
