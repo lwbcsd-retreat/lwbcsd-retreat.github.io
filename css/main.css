@@ -333,14 +333,14 @@ nav {
    HEADER
    ========================================================================== */
 .header {
-  padding: 100px 0 100px;
+  padding: 32px 0 32px;
   text-align: center;
 }
 .logo-title {
   text-align: left;
-  margin-top: 0.2em;
+  margin-top: 1em;
   margin-bottom: 0.2em;
-  font-size: 4em;
+  font-size: 10em;
   letter-spacing: -0.04em;
 }
 .logo-subtitle {
