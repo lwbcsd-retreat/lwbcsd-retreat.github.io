@@ -4,7 +4,7 @@
 * {
   margin: 0;
   padding: 0;
-  list-style: none;
+  /* list-style: none; */
   border: 0;
   text-decoration: none;
 }
@@ -318,7 +318,7 @@ p {
    NAVIGATION
    ========================================================================== */
 nav {
-  padding: 15px 0;
+  padding: 25px 0;
   position: fixed;
   width: 100%;
   z-index: 10;
@@ -328,19 +328,19 @@ nav {
   margin-right: 15px;
 }
 .nav-link {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 /* =============================================================================
    HEADER
    ========================================================================== */
 .header {
-  padding: 32px 0 32px;
+  padding: 32px 0 0px;
   text-align: center;
 }
 .footer {
   padding: 32px 0 32px;
   text-align: center;
-  font-size: 1.2em
+  font-size: 1.2em;
 }
 
 .logo-title {
@@ -449,7 +449,7 @@ nav {
 }
 
 .schedule-tbl {
-  padding: 20px;
+  padding: 10px;
 }
 
 .schedule-tbl table {
@@ -459,15 +459,15 @@ nav {
 .schedule-tbl td,
 .schedule-tbl th {
   position: relative;
-  padding: 20px 30px;
+  padding: 4px 10px;
   font-size: 1.6em;
   line-height: 1.6em;
   text-align: left;
 }
 .schedule-tbl th {
-  padding: 5px 30px;
+  padding: 4px 10px;
   color: #2b2b2b;
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: bolder;
 }
 .schedule-tbl .speaker-photo {
@@ -492,7 +492,29 @@ nav {
    Poster
    ========================================================================== */
 .poster-list {
-  text-align: center;
+  font-size: 16px;
+  /* text-align: center; */
+}
+
+/* =============================================================================
+   Discussion
+   ========================================================================== */
+
+.discussion p {
+  margin-top: 1em;
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
+.discussion ol  {
+  font-size: 1.4em;
+  line-height: 1.5em;
+  list-style: decimal;
+  margin-left: 2em;
+}
+
+.discussion li  {
+  padding-bottom: 1em;
 }
 
 /* =============================================================================
